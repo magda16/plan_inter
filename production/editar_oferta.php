@@ -382,7 +382,7 @@ if(isset($_POST['id'])){
                             <label class="col-md-3 col-sm-3 col-xs-12 control-label">Prestaciones: <span class="required" style="color: #CD5C5C;"> *</span></label>
                             <div class="checkbox col-md-6 col-sm-6 col-xs-12">
                               <label>
-                              <input type="checkbox" class=" " id="ninguna_pres" name="ninguna_pres" value="Ninguna"> Ninguna </label>
+                              <input type="checkbox" class=" " id="ninguna_pres[]" name="ninguna_pres[]" value="Ninguna"> Ninguna </label>
                               <br />
                               <div id="div_prestaciones" name="div_prestaciones">
                               <label>

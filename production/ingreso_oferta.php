@@ -242,78 +242,78 @@ include ("../build/conexion.php");
                             <label class="col-md-3 col-sm-3 col-xs-12 control-label">Prestaciones: <span class="required" style="color: #CD5C5C;"> *</span></label>
                             <div class="checkbox col-md-6 col-sm-6 col-xs-12">
                               <label>
-                              <input type="checkbox" class=" " id="ninguna_pres" name="ninguna_pres" value="Ninguna"> Ninguna </label>
+                              <input type="checkbox" class=" " id="prestaciones_1" name="prestaciones[]" value="Ninguna"> Ninguna </label>
                               <br />
                               <div id="div_prestaciones" name="div_prestaciones">
                               <label>
-                              <input type="checkbox" class=" " id="prestaciones[]" name="prestaciones[]" value="De Ley"> De Ley </label>
+                              <input type="checkbox" class=" " id="prestaciones_2" name="prestaciones[]" value="De Ley"> De Ley </label>
                               <br />
                               <label>
-                              <input type="checkbox" class=" " id="prestaciones[]" name="prestaciones[]" value="Seguro de Vida y Accidentes"> Seguro de Vida y Accidentes </label>
+                              <input type="checkbox" class=" " id="prestaciones_3" name="prestaciones[]" value="Seguro de Vida y Accidentes"> Seguro de Vida y Accidentes </label>
                               <br />
                               <label>
-                              <input type="checkbox" class=" " id="prestaciones[]" name="prestaciones[]" value="Depreciación y gastos de gasolina"> Depreciación y gastos de gasolina </label>
+                              <input type="checkbox" class=" " id="prestaciones_4" name="prestaciones[]" value="Depreciación y gastos de gasolina"> Depreciación y gastos de gasolina </label>
                               <br />
                               <label>
-                              <input type="checkbox" class=" " id="prestaciones[]" name="prestaciones[]" value="Medicamentos"> Medicamentos </label>
+                              <input type="checkbox" class=" " id="prestaciones_5" name="prestaciones[]" value="Medicamentos"> Medicamentos </label>
                               <br />
                               <label>
-                              <input type="checkbox" class=" " id="prestaciones[]" name="prestaciones[]" value="Bonificaciones"> Bonificaciones </label>
+                              <input type="checkbox" class=" " id="prestaciones_6" name="prestaciones[]" value="Bonificaciones"> Bonificaciones </label>
                               <br />
                               <label>
-                              <input type="checkbox" class=" " id="prestaciones[]" name="prestaciones[]" value="Cooperativa de Empleados"> Cooperativa de Empleados </label>
+                              <input type="checkbox" class=" " id="prestaciones_7" name="prestaciones[]" value="Cooperativa de Empleados"> Cooperativa de Empleados </label>
                               <br />
                               <label>
-                              <input type="checkbox" class=" " id="prestaciones[]" name="prestaciones[]" value="Alimentación"> Alimentación </label>
+                              <input type="checkbox" class=" " id="prestaciones_8" name="prestaciones[]" value="Alimentación"> Alimentación </label>
                               <br />
                               <label>
-                              <input type="checkbox" class=" " id="prestaciones[]" name="prestaciones[]" value="Seguro de Vehículos"> Seguro de Vehículos </label>
+                              <input type="checkbox" class=" " id="prestaciones_9" name="prestaciones[]" value="Seguro de Vehículos"> Seguro de Vehículos </label>
                               <br />
                               <label>
-                              <input type="checkbox" class=" " id="prestaciones[]" name="prestaciones[]" value="Uniforme"> Uniforme </label>
+                              <input type="checkbox" class=" " id="prestaciones_10" name="prestaciones[]" value="Uniforme"> Uniforme </label>
                               <br />
                               <label>
-                              <input type="checkbox" class=" " id="prestaciones[]" name="prestaciones[]" value="Descuentos en compras"> Descuentos en compras </label>
+                              <input type="checkbox" class=" " id="prestaciones_11" name="prestaciones[]" value="Descuentos en compras"> Descuentos en compras </label>
                               <br />
                               <label>
-                              <input type="checkbox" class=" " id="prestaciones[]" name="prestaciones[]" value="Calzado"> Calzado </label>
+                              <input type="checkbox" class=" " id="prestaciones_12" name="prestaciones[]" value="Calzado"> Calzado </label>
                               <br />
                               <label>
-                              <input type="checkbox" class=" " id="prestaciones[]" name="prestaciones[]" value="Indemnización Anual"> Indemnización Anual </label>
+                              <input type="checkbox" class=" " id="prestaciones_13" name="prestaciones[]" value="Indemnización Anual"> Indemnización Anual </label>
                               <br />
                               <label>
-                              <input type="checkbox" class=" " id="prestaciones[]" name="prestaciones[]" value="Programa de Capacitación"> Programa de Capacitación </label>
+                              <input type="checkbox" class=" " id="prestaciones_14" name="prestaciones[]" value="Programa de Capacitación"> Programa de Capacitación </label>
                               <br />
                               <label>
-                              <input type="checkbox" class=" " id="prestaciones[]" name="prestaciones[]" value="Transporte"> Transporte </label>
+                              <input type="checkbox" class=" " id="prestaciones_15" name="prestaciones[]" value="Transporte"> Transporte </label>
                               <br />
                               <label>
-                              <input type="checkbox" class=" " id="prestaciones[]" name="prestaciones[]" value="Canasta Básica"> Canasta Básica </label>
+                              <input type="checkbox" class=" " id="prestaciones_16" name="prestaciones[]" value="Canasta Básica"> Canasta Básica </label>
                               <br />
                               <label>
-                              <input type="checkbox" class=" " id="prestaciones[]" name="prestaciones[]" value="Seguro Médico"> Seguro Médico </label>
+                              <input type="checkbox" class=" " id="prestaciones_17" name="prestaciones[]" value="Seguro Médico"> Seguro Médico </label>
                               <br />
                               <label>
-                              <input type="checkbox" class=" " id="prestaciones[]" name="prestaciones[]" value="Viáticos"> Viáticos </label>
+                              <input type="checkbox" class=" " id="prestaciones18" name="prestaciones[]" value="Viáticos"> Viáticos </label>
                               <br />
                               <label>
-                              <input type="checkbox" class=" " id="prestaciones[]" name="prestaciones[]" value="Seguro de Vehículos"> Clínica Empresarial </label>
+                              <input type="checkbox" class=" " id="prestaciones19" name="prestaciones[]" value="Seguro de Vehículos"> Clínica Empresarial </label>
                               <br />
                               <label>
-                              <input type="checkbox" class=" " id="prestaciones[]" name="prestaciones[]" value="Horas Extra"> Horas Extra </label>
+                              <input type="checkbox" class=" " id="prestaciones20" name="prestaciones[]" value="Horas Extra"> Horas Extra </label>
                               <br />
                               <label>
                               <input type="checkbox" class=" " id="otras_p" name="otras_p" value="Otras"> Otras </label>
                               </div>
                             </div>
-                            
+                            <span class="help-block"></span>
                           </div>
 
                           <div class="form-group" id="div_op" name="div_op">
                             <label class="control-label col-md-3 col-sm-3 col-xs-12 text-left">Otras Prestaciones: <span class="required" style="color: #CD5C5C;"> *</span>
                             </label>
                             
-                            <span class="help-block"></span>
+                            
                           </div>
                           <div class="ln_solid"></div>
                           <p style="color:RGB(205, 92, 92);">( * ) Campos Obligatorios.</p>
@@ -354,7 +354,6 @@ include ("../build/conexion.php");
                             </label>
                             <div class="col-md-5 col-sm-5 col-xs-12">
                               <input type="text" class="form-control has-feedback-left" id="periodo_prueba" name="periodo_prueba" required="required" placeholder="Ingrese Periodo de Prueba">
-                              
                               <span class="fa fa-circle-o form-control-feedback left" aria-hidden="true"></span>
                             </div>
                             <label class="control-label col-md-1 col-sm-1 col-xs-12 text-left" >Días
@@ -380,6 +379,7 @@ include ("../build/conexion.php");
                             <div class="col-md-6 col-sm-6 col-xs-12">
                                 <textarea id="descrip_puesto" name="descrip_puesto" class="form-control col-md-7 col-xs-12" required="required" placeholder="Ingrese Descripción del Puesto"></textarea>
                             </div>
+                            <span class="help-block"></span>
                         </div>
 
                         <div class="form-group">
@@ -388,6 +388,7 @@ include ("../build/conexion.php");
                             <div class="col-md-6 col-sm-6 col-xs-12">
                                 <textarea id="funciones" name="funciones" class="form-control col-md-7 col-xs-12" required="required" placeholder="Ingrese Funciones"></textarea>
                             </div>
+                            <span class="help-block"></span>
                         </div>
 
                         
@@ -454,46 +455,47 @@ include ("../build/conexion.php");
                             <div class="col-md-6 col-sm-6 col-xs-12">
                                 <textarea id="caracteristicas_personales" name="caracteristicas_personales" class="form-control col-md-7 col-xs-12" required="required" placeholder="Ingrese Características Personales"></textarea>
                             </div>
+                            <span class="help-block"></span>
                           </div>
                           
                           <div class="form-group">
                             <label class="col-md-3 col-sm-3 col-xs-12 control-label">Documentos a Presentar: <span class="required" style="color: #CD5C5C;"> *</span></label>
                             <div class="checkbox col-md-6 col-sm-6 col-xs-12">
                               <label>
-                              <input type="checkbox" class=" " id="documentos_requeridos[]" name="documentos_requeridos[]" value="Carné de Residente"> Carné de Residente </label>
+                              <input type="checkbox" class=" " id="documentos_requeridos_1" name="documentos_requeridos[]" value="Carné de Residente"> Carné de Residente </label>
                               <br />
                               <label>
-                              <input type="checkbox" class=" " id="documentos_requeridos[]" name="documentos_requeridos[]" value="Permiso de Trabajo"> Permiso de Trabajo </label>
+                              <input type="checkbox" class=" " id="documentos_requeridos_2" name="documentos_requeridos[]" value="Permiso de Trabajo"> Permiso de Trabajo </label>
                               <br />
                               <label>
-                              <input type="checkbox" class=" " id="documentos_requeridos[]" name="documentos_requeridos[]" value="Pasaporte"> Pasaporte </label>
+                              <input type="checkbox" class=" " id="documentos_requeridos_3" name="documentos_requeridos[]" value="Pasaporte"> Pasaporte </label>
                               <br />
                               <label>
-                              <input type="checkbox" class=" " id="documentos_requeridos[]" name="documentos_requeridos[]" value="DUI"> DUI </label>
+                              <input type="checkbox" class=" " id="documentos_requeridos_4" name="documentos_requeridos[]" value="DUI"> DUI </label>
                               <br />
                               <label>
-                              <input type="checkbox" class=" " id="documentos_requeridos[]" name="documentos_requeridos[]" value="NUP"> NUP </label>
+                              <input type="checkbox" class=" " id="documentos_requeridos_5" name="documentos_requeridos[]" value="NUP"> NUP </label>
                               <br />
                               <label>
-                              <input type="checkbox" class=" " id="documentos_requeridos[]" name="documentos_requeridos[]" value="ISSS"> ISSS </label>
+                              <input type="checkbox" class=" " id="documentos_requeridos_6" name="documentos_requeridos[]" value="ISSS"> ISSS </label>
                               <br />
                               <label>
-                              <input type="checkbox" class=" " id="documentos_requeridos[]" name="documentos_requeridos[]" value="Licencia de Conducir"> Licencia de Conducir </label>
+                              <input type="checkbox" class=" " id="documentos_requeridos_7" name="documentos_requeridos[]" value="Licencia de Conducir"> Licencia de Conducir </label>
                               <br />
                               <label>
-                              <input type="checkbox" class=" " id="documentos_requeridos[]" name="documentos_requeridos[]" value="Currículo Vitae"> Currículo Vitae </label>
+                              <input type="checkbox" class=" " id="documentos_requeridos_8" name="documentos_requeridos[]" value="Currículo Vitae"> Currículo Vitae </label>
                               <br />
                               <label>
-                              <input type="checkbox" class=" " id="documentos_requeridos[]" name="documentos_requeridos[]" value="NIT"> NIT </label>
+                              <input type="checkbox" class=" " id="documentos_requeridos_9" name="documentos_requeridos[]" value="NIT"> NIT </label>
                               <br />
                               <label>
-                              <input type="checkbox" class=" " id="documentos_requeridos[]" name="documentos_requeridos[]" value="Licencia de Portación de Armas"> Licencia de Portación de Armas </label>
+                              <input type="checkbox" class=" " id="documentos_requeridos_10" name="documentos_requeridos[]" value="Licencia de Portación de Armas"> Licencia de Portación de Armas </label>
                               <br />
                               <label>
-                              <input type="checkbox" class=" " id="documentos_requeridos[]" name="documentos_requeridos[]" value="Licencia de Motocicleta"> Licencia de Motocicleta </label>
+                              <input type="checkbox" class=" " id="documentos_requeridos_11" name="documentos_requeridos[]" value="Licencia de Motocicleta"> Licencia de Motocicleta </label>
         
                             </div>
-                            
+                            <span class="help-block"></span>
                           </div>
 
                           <div class="ln_solid"></div>
@@ -510,29 +512,29 @@ include ("../build/conexion.php");
                             <label class="col-md-3 col-sm-3 col-xs-12 control-label">Otros Requerimientos: <span class="required" style="color: #CD5C5C;"> *</span></label>
                             <div class="checkbox col-md-6 col-sm-6 col-xs-12">
                               <label>
-                              <input type="checkbox" class=" " id="otros_requerimientos[]" name="otros_requerimientos[]" value="Recomendación Laboral"> Recomendación Laboral </label>
+                              <input type="checkbox" class=" " id="otros_requerimientos_1" name="otros_requerimientos[]" value="Recomendación Laboral"> Recomendación Laboral </label>
                               <br />
                               <label>
-                              <input type="checkbox" class=" " id="otros_requerimientos[]" name="otros_requerimientos[]" value="Recomendación Personal"> Recomendación Personal </label>
+                              <input type="checkbox" class=" " id="otros_requerimientos_2" name="otros_requerimientos[]" value="Recomendación Personal"> Recomendación Personal </label>
                               <br />
                               <label>
-                              <input type="checkbox" class=" " id="otros_requerimientos[]" name="otros_requerimientos[]" value="Foto"> Foto </label>
+                              <input type="checkbox" class=" " id="otros_requerimientos_3" name="otros_requerimientos[]" value="Foto"> Foto </label>
                               <br />
                               <label>
-                              <input type="checkbox" class=" " id="otros_requerimientos[]" name="otros_requerimientos[]" value="Solvencia PNC"> Solvencia PNC </label>
+                              <input type="checkbox" class=" " id="otros_requerimientos_4" name="otros_requerimientos[]" value="Solvencia PNC"> Solvencia PNC </label>
                               <br />
                               <label>
-                              <input type="checkbox" class=" " id="otros_requerimientos[]" name="otros_requerimientos[]" value="Resultado PAES"> Resultado PAES </label>
+                              <input type="checkbox" class=" " id="otros_requerimientos_5" name="otros_requerimientos[]" value="Resultado PAES"> Resultado PAES </label>
                               <br />
                               <label>
-                              <input type="checkbox" class=" " id="otros_requerimientos[]" name="otros_requerimientos[]" value="Examen de Tórax y Pulmones"> Examen de Tórax y Pulmones </label>
+                              <input type="checkbox" class=" " id="otros_requerimientos_6" name="otros_requerimientos[]" value="Examen de Tórax y Pulmones"> Examen de Tórax y Pulmones </label>
                               <br />
                                 <label>
                                 <input type="checkbox" class=" " id="licencia_conducir" name="licencia_conducir" value="Licencia de Conducir"> Licencia de Conducir </label>
                                 <div id="div_orinput" name="div_orinput">
                                 </div>
                             </div>
-                            
+                            <span class="help-block"></span>
                           </div>
                           <div id="div_ve" id="div_ve">
                           <div class="form-group">
@@ -580,34 +582,34 @@ include ("../build/conexion.php");
                             <label class="col-md-3 col-sm-3 col-xs-12 control-label">Disponibilidad: <span class="required" style="color: #CD5C5C;"> *</span></label>
                             <div class="checkbox col-md-6 col-sm-6 col-xs-12">
                               <label>
-                              <input type="checkbox" class=" " id="disponibilidad[]" name="disponibilidad[]" value="Dispuesto (a) a viajar"> Dispuesto (a) a viajar </label>
+                              <input type="checkbox" class=" " id="disponibilidad_1" name="disponibilidad[]" value="Dispuesto (a) a viajar"> Dispuesto (a) a viajar </label>
                               <br />
                               <label>
-                              <input type="checkbox" class=" " id="disponibilidad[]" name="disponibilidad[]" value="Trabajar en horas nocturnas"> Trabajar en horas nocturnas </label>
+                              <input type="checkbox" class=" " id="disponibilidad_2" name="disponibilidad[]" value="Trabajar en horas nocturnas"> Trabajar en horas nocturnas </label>
                               <br />
                               <label>
-                              <input type="checkbox" class=" " id="disponibilidad[]" name="disponibilidad[]" value="Vivir en el lugar de trabajo"> Vivir en el lugar de trabajo </label>
+                              <input type="checkbox" class=" " id="disponibilidad_3" name="disponibilidad[]" value="Vivir en el lugar de trabajo"> Vivir en el lugar de trabajo </label>
                               <br />
                               <label>
-                              <input type="checkbox" class=" " id="disponibilidad[]" name="disponibilidad[]" value="Residir fuera menos de 1 semana"> Residir fuera menos de 1 semana </label>
+                              <input type="checkbox" class=" " id="disponibilidad_4" name="disponibilidad[]" value="Residir fuera menos de 1 semana"> Residir fuera menos de 1 semana </label>
                               <br />
                               <label>
-                              <input type="checkbox" class=" " id="disponibilidad[]" name="disponibilidad[]" value="Residir fuera más de 1 semana"> Residir fuera más de 1 semana </label>
+                              <input type="checkbox" class=" " id="disponibilidad_5" name="disponibilidad[]" value="Residir fuera más de 1 semana"> Residir fuera más de 1 semana </label>
                               <br />
                               <label>
-                              <input type="checkbox" class=" " id="disponibilidad[]" name="disponibilidad[]" value="Trabajar los fines de semana"> Trabajar los fines de semana </label>
+                              <input type="checkbox" class=" " id="disponibilidad_6" name="disponibilidad[]" value="Trabajar los fines de semana"> Trabajar los fines de semana </label>
                               <br />
                               <label>
                               <input type="checkbox" class=" " id="otra_disponibilidad" name="otra_disponibilidad" value="Otras"> Otras </label>
                              
                             </div>
+                            <span class="help-block"></span>
                             
                           </div>
 
                           <div class="form-group" id="div_di" name="div_di">
                             <label class="control-label col-md-3 col-sm-3 col-xs-12 text-left">Otras Disponibilidades: <span class="required" style="color: #CD5C5C;"> *</span>
                             </label><br />
-                            <span class="help-block"></span>
                           </div>
 
                           <div class="ln_solid"></div>
@@ -729,6 +731,7 @@ include ("../build/conexion.php");
     <!-- PNotify -->
     <script src="../vendors/PNotify/dist/iife/PNotify.js"></script>
     <script src="../vendors/PNotify/dist/iife/PNotifyButtons.js"></script>
+    <script src="../vendors/PNotify/dist/iife/PNotifyConfirm.js"></script>
     <script src="../vendors/PNotify/dist/iife/PNotifyMobile.js"></script>
 
     <!-- Validaciones -->

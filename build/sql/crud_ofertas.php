@@ -21,14 +21,9 @@
             $periodo_pago=$_POST["otro_periodo_pago"];
           }
           $forma_contratacion=$_POST["forma_contratacion"];
-          $prestaciones="";
+    
+          $prestaciones=json_encode($_POST["prestaciones"]);
           
-          if(isset($_POST["ninguna_pres"])){
-            $prestaciones=json_encode($_POST["ninguna_pres"]);
-          }else{
-            $prestaciones=json_encode(isset($_POST["prestaciones"]));
-          }
-
           $jornada_trabajo=$_POST["jornada_trabajo"];
           $horario_trabajo=$_POST["horario_trabajo"];
           $periodo_prueba=$_POST["periodo_prueba"];
@@ -40,8 +35,8 @@
           $genero=$_POST["genero"];
           $estado_civil=$_POST["estado_familiar"];
           $caracteristicas_personales=$_POST["caracteristicas_personales"];
-          $documentos_requeridos=json_encode(isset($_POST["documentos_requeridos"]));
-          $otros_requerimientos=json_encode(isset($_POST["otros_requerimientos"]));
+          $documentos_requeridos=json_encode($_POST["documentos_requeridos"]);
+          $otros_requerimientos=json_encode($_POST["otros_requerimientos"]);
           $clase_vehiculo="";
           if($_POST["clase_vehiculo"]!=""){
             $clase_vehiculo=json_encode($_POST["clase_vehiculo"]);
@@ -56,7 +51,7 @@
             $clase_licencia=json_encode($_POST["clase_licencia"]);
           }
 
-          $disponibilidad=json_encode(isset($_POST["disponibilidad"]));
+          $disponibilidad=json_encode($_POST["disponibilidad"]);
 
           $incorporacion=$_POST["incorporacion"];
           if($_POST["otra_incorporacion"]!=""){
